@@ -1,0 +1,6 @@
+{
+  "sheet_url": "https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/edit",
+  "service_account_path": "secrets/sa.json",
+  "active_tab": "Active",
+  "archive_tab": "Archive"
+}
