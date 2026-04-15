@@ -12,7 +12,9 @@ Find and track the best value used/refurbished computers available for purchase 
 - 8+ cores / 16+ threads — no 4-core or 6-core machines
 - Proper desktop-class CPU, 35W TDP or higher — no U-series or Y-series laptop chips
 - CPU from 2019 or newer — no pre-8th gen Intel, no pre-Ryzen 2000 series AMD
-- RAM: Either 32GB already installed, OR the machine supports upgrade to 32GB/64GB and a compatible RAM kit is available for a good total price (machine + RAM kit must still represent strong value)
+- RAM: Either 32GB already installed, OR the machine supports upgrade to 32GB and the all-in math (machine + RAM kit) still represents strong value
+  - **DDR4 RAM cost estimate:** Use **$185** as the standing estimate for a 32GB DDR4 kit when computing all-in for any upgrade-needed listing (UDIMM or SODIMM, doesn't matter — use $185 flat). DDR4 prices spiked dramatically in 2025–2026 as vendors pivoted production to DDR5/HBM. The old "$18 RAM kit" assumption is wrong and must not be used.
+  - **Strongly prefer already-32GB machines.** With $185 baked in, most upgrade-needed listings will not be competitive vs. shipped 32GB options in the $295–$400 range. Only add an upgrade-needed listing if the all-in still beats the median already-32GB option in the tracker.
 - Total all-in price must make sense for the spec — benchmark against eBay sold listings and flag steals vs. fair prices
 - Form factor does not matter — towers, desktops, mini PCs, laptops all acceptable
 - Machine will be ethernet-connected, stationary, used for dev work (Claude Code, Python, FastAPI, Angular, pytest)
@@ -52,12 +54,14 @@ For each listing currently marked ACTIVE in `deals.md`:
 Run the searches listed above. For each promising find:
 - Verify RAM spec against manufacturer QuickSpecs or official spec sheet
 - Benchmark price against eBay sold comps for the same model/config
-- Calculate total all-in cost (machine + shipping if applicable + $70 SSD if no drive included)
+- Calculate total all-in cost: machine + shipping (if applicable) + **$185 RAM kit if upgrade needed**. Do NOT add anything for missing/small storage — see Storage section above.
 - Confirm return policy and seller credibility for shipped listings
 - Only add to tracker if it represents genuine value — do not pad with mediocre listings
 
 ### Step 4 — Update deals.md
 Write the updated file with all changes from this session. See format below.
+
+**Cap the Active Listings section at 10 entries.** If a session would push the active count above 10, archive the weakest current listings (lowest value vs. spec, highest all-in, weakest seller, longest stale, etc.) until exactly 10 remain. Below 10 is fine — do not pad with mediocre finds. The goal is a tight, high-signal shortlist, not a comprehensive market survey. Use `archive` with reason like `"Pruned — top 10 cap, weaker than alternatives"` for cap-driven removals.
 
 ### Step 4b — Mirror all changes to the Google Sheet
 Dual-write phase: every change made to `deals.md` in Step 4 must also be applied to the Google Sheet via `update_sheet.py`. See the **Google Sheet Sync** section below for the schema and CLI reference. `deals.md` remains the source of truth for now — the sheet is being validated in parallel.
@@ -97,7 +101,7 @@ Total runs: [N]
 - **Location:** [local pickup location or "ships from X"]
 - **Seller:** [name, feedback %, transaction count if eBay]
 - **Returns:** [policy]
-- **All-in price:** [machine] + [shipping] + [SSD if needed] = [total]
+- **All-in price:** [machine] + [shipping] + [$185 RAM kit if upgrade needed] = [total]
 - **vs. market:** [brief benchmark — e.g. "eBay comps at $400-450, this is $380 = slight steal"]
 - **Notes:** [anything worth flagging — age of listing, condition, upgrade path, etc.]
 
