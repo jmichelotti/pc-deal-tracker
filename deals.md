@@ -1,14 +1,13 @@
 # PC Deal Tracker
-Last updated: 2026-04-14 (Maintenance update — DDR4 RAM repricing + top-10 cap)
-Total runs: 7
+Last updated: 2026-04-16 (Run 15)
+Total runs: 15
 
 ## ⭐ Best Current Deal
-**HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 local pickup (Facebook Marketplace, San Jose)** — Best CPU in the tracker (12th gen 12C/20T, 65W), most storage (1TB NVMe), discrete GPU included, and tied for cheapest price tier. Only downsides: FB Marketplace (no formal returns), listed 8+ weeks, and requires a ~50 min drive to San Jose.
+**HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 local pickup (FB Marketplace, San Jose)** — Best CPU in the tracker (12th gen 12C/20T, 65W), 1TB NVMe, GTX 1660 SUPER, $350 all-in with no shipping. eBay comps for this config run $500-700; at $350 this is 30-50% below market. Caveats: FB Marketplace (no returns), ~50min drive, listing now 8+ weeks old — strong signal to negotiate below $350.
 
-*Runner-up (cheapest shipped, lowest risk):* Dell OptiPlex 5090 SFF i7-10700 32GB 500GB — $295 shipped from eBay (ispman44, 100%, 4.1K items sold). Free shipping, 30-day returns, 32GB pre-installed. Cheapest all-in option in the tracker.
-*Runner-up (best i9):* Dell Precision 3440 SFF i9-10900 32GB Quadro P1000 — $400 shipped from CDR Global (99.9%, 20K+ items). Best multi-thread option for compile-heavy work.
-
-*Maintenance note (2026-04-14):* DDR4 prices have spiked dramatically in 2026 (vendors pivoted production to DDR5/HBM). The previous "~$18 RAM kit" assumption has been replaced with a **$185** standing estimate per CLAUDE.md. Three upgrade-needed listings were repriced and two of them were dropped along with three other weak entries to enforce the new **top-10 active cap**. See Expired / Sold Listings for the pruned items.
+*Runner-up (cheapest shipped, lowest risk):* Dell OptiPlex 5080 SFF i7-10700 32GB 500GB — **$275 OBO shipped free** from eBay (99.7%, 6.9K feedback). 30-day seller-paid returns. Cheapest all-in option in the tracker.
+*Runner-up (best 11th gen shipped):* Dell OptiPlex 7090 SFF i7-11700 32GB 500GB — **$399.99 shipped free** from eBay. Full 65W 11th gen i7 with ~19% better IPC than 10th gen.
+*Runner-up (best i9 shipped):* HP EliteDesk 800 G6 MT i9-10900 32GB 512GB — **$429 shipped free** from Sage Sustainable Electronics (99.2%, 15K). 60-day seller-paid returns. Highest core count in the tracker (10C/20T).
 
 ---
 
@@ -18,7 +17,7 @@ Total runs: 7
 - **Status:** ACTIVE
 - **URL:** https://www.facebook.com/marketplace/item/1539357997148562/
 - **First found:** 2026-04-14
-- **Last verified:** 2026-04-15 (Run 7)
+- **Last verified:** 2026-04-16 (Run 15)
 - **CPU:** Intel Core i7-12700F, 12 cores (8P+4E) / 20 threads, 65W TDP (desktop LGA1700, 12th gen Alder Lake 2022)
 - **RAM:** 32GB DDR4-3200MHz (2x16GB) installed
 - **Storage:** 1TB PCIe NVMe M.2 SSD included
@@ -28,7 +27,25 @@ Total runs: 7
 - **Returns:** None (FB Marketplace — inspect in person)
 - **All-in price:** $350 machine + $0 shipping = **$350 total**
 - **vs. market:** eBay sold comps for i7-12700F + GTX 1660 SUPER + 32GB systems run $500-700. At $350 local pickup this is a significant steal — 30-50% below market.
-- **Notes:** Originally listed at $830, now $350. Listed 8+ weeks ago — long listing time could indicate seller responsiveness issues or just FB Marketplace being slow for computer sales. Minor case damage (cosmetic only). Windows 11 Home activated. The i7-12700F is 2 generations newer than everything else in the tracker with substantially better single-thread AND multi-thread performance. The GTX 1660 SUPER is overkill for dev work but adds multi-monitor flexibility. Best all-around spec/price ratio in the tracker. ⚠️ Listing has been sitting 8+ weeks — may indicate room to negotiate or seller responsiveness issues.
+- **Notes:** Originally listed at $830, now $350. Listed 8+ weeks ago — long listing time could indicate seller responsiveness issues or just FB Marketplace being slow for computer sales. Minor case damage (cosmetic only). Windows 11 Home activated. The i7-12700F is 2 generations newer than the 10th/11th gen options in the tracker with substantially better single-thread AND multi-thread performance. The GTX 1660 SUPER is overkill for dev work but adds multi-monitor flexibility. Best all-around spec/price ratio in the tracker. ⚠️ Listing has been sitting 8+ weeks — strong signal to negotiate well below $350 if interested.
+
+---
+
+### Dell OptiPlex 5080 SFF i7-10700 32GB 500GB — $275 OBO — eBay
+- **Status:** ACTIVE
+- **URL:** https://www.ebay.com/itm/257458772094
+- **First found:** 2026-04-15
+- **Last verified:** 2026-04-16 (Run 15)
+- **CPU:** Intel Core i7-10700, 8 cores / 16 threads, 65W TDP (desktop LGA1200)
+- **RAM:** 32GB DDR4 installed
+- **Storage:** 500GB SSD included
+- **GPU:** Intel UHD 630 (integrated)
+- **Location:** Ships from Neptune, New Jersey — Free USPS Ground Advantage
+- **Seller:** 99.7% positive, 6,953 feedback
+- **Returns:** 30 days, seller pays return shipping
+- **All-in price:** $275 machine + $0 shipping = **$275 total**
+- **vs. market:** eBay comps for OptiPlex 5080 SFF i7-10700 32GB run $350-$420. At $275 with free shipping and seller-paid returns this is well below market — significant steal.
+- **Notes:** Cheapest all-in option in the entire tracker. Condition: "Cosmetics B-, Hardware Functions" — cosmetic wear but fully functional. Win 11 Pro included. OBO listing — already a steal at ask price. Seller-paid returns are best-in-class for shipped options. eBay Money Back Guarantee applies. Power cord included. Seller has multiple identical units (sibling listings at the same price, e.g. /itm/257458748283).
 
 ---
 
@@ -36,17 +53,17 @@ Total runs: 7
 - **Status:** ACTIVE
 - **URL:** https://www.ebay.com/itm/267633514453
 - **First found:** 2026-04-14
-- **Last verified:** 2026-04-15 (Run 7)
+- **Last verified:** 2026-04-16 (Run 15)
 - **CPU:** Intel Core i7-10700, 8 cores / 16 threads, 65W TDP (full desktop LGA1200)
 - **RAM:** 32GB DDR4 installed
 - **Storage:** 500GB SSD included (specs page lists 1TB — verify with seller; conservatively tracking as 500GB per title)
 - **GPU:** Intel UHD 630 (integrated)
 - **Location:** Ships from Boonville, Missouri — Free USPS Ground Advantage
-- **Seller:** ispman44 — 1,697 feedback, 100% positive, 4.1K items sold
+- **Seller:** ValuePlusPC (formerly ispman44) — 3,756 feedback, 100% positive
 - **Returns:** 30 days, buyer pays return shipping
 - **All-in price:** $295 machine + $0 shipping = **$295 total**
 - **vs. market:** eBay comps for OptiPlex 5090 SFF i7-10700 32GB run $380-$450. At $295 with free shipping this is well below market — significant steal.
-- **Notes:** Cheapest all-in option in the entire tracker. Condition listed as "extremely good." Windows 11 Pro included. OBO listing — already a steal at ask price. The 5090 is a newer chassis than the 5080 (2021 vs 2020) with better thermals. Title says 500GB but eBay item specifics say 1TB SSD — discrepancy worth confirming. eBay Money Back Guarantee applies even with buyer-pays-return policy.
+- **Notes:** Second cheapest all-in option in the tracker. Condition listed as "extremely good." Windows 11 Pro included. OBO listing. The 5090 is a newer chassis than the 5080 (2021 vs 2020) with better thermals. Title says 500GB but eBay item specifics say 1TB SSD — discrepancy worth confirming. eBay Money Back Guarantee applies even with buyer-pays-return policy.
 
 ---
 
@@ -54,7 +71,7 @@ Total runs: 7
 - **Status:** ACTIVE
 - **URL:** https://www.ebay.com/itm/188101365018
 - **First found:** 2026-04-14
-- **Last verified:** 2026-04-15 (Run 7)
+- **Last verified:** 2026-04-16 (Run 15)
 - **CPU:** Intel Core i7-10700, 8 cores / 16 threads, 65W TDP (desktop LGA1200)
 - **RAM:** 32GB DDR4 installed
 - **Storage:** 256GB NVMe SSD included
@@ -64,7 +81,7 @@ Total runs: 7
 - **Returns:** 30 days, buyer pays return shipping
 - **All-in price:** $314.99 machine + $19.62 shipping = **$334.61 total**
 - **vs. market:** eBay comps for Precision 3440 SFF i7-10700 32GB run $330-$400. At $334.61 shipped this is at the low end — good value.
-- **Notes:** Second cheapest shipped option in the tracker. Condition: "Good, No WiFi" — no wireless card (not a concern for ethernet-only use). Yellow flags: seller accuracy rating is 4.4/5.0, buyer pays return shipping, 98.1% positive is just above threshold. Workstation-class machine with ISV certifications.
+- **Notes:** Workstation-class machine with ISV certifications. Condition: "Good, No WiFi" — no wireless card (not a concern for ethernet-only use). Yellow flags: seller accuracy rating is 4.4/5.0, buyer pays return shipping, 98.1% positive is just above threshold.
 
 ---
 
@@ -72,7 +89,7 @@ Total runs: 7
 - **Status:** ACTIVE
 - **URL:** https://www.ebay.com/itm/168155399595
 - **First found:** 2026-04-14
-- **Last verified:** 2026-04-15 (Run 7)
+- **Last verified:** 2026-04-16 (Run 15)
 - **CPU:** Intel Core i7-10700F, 8 cores / 16 threads, 65W TDP (desktop LGA1200, no integrated graphics)
 - **RAM:** 32GB DDR4 installed
 - **Storage:** 256GB SSD included
@@ -82,25 +99,7 @@ Total runs: 7
 - **Returns:** 30 days, seller pays return shipping
 - **All-in price:** $349.99 machine + $0 shipping = **$349.99 total**
 - **vs. market:** eBay comps for HP Pavilion TP01-1137C i7-10700F 32GB run $350-450. At $349.99 with free shipping and free returns this is at the floor — good value.
-- **Notes:** No OS included — install Linux or provide own Windows license. Seller ratings are excellent: 4.8 accuracy, 5.0 shipping cost, 5.0 speed, 5.0 communication. EVR is a mission-driven refurb seller (37K items sold). The i7-10700F has no integrated graphics — the dedicated GPU is required for display output. OBO means room to negotiate. Best shipped option with seller-paid returns.
-
----
-
-### HP Z2 G5 SFF i7-10700 32GB 1TB Win 11 — $350 OBO — eBay
-- **Status:** ACTIVE
-- **URL:** https://www.ebay.com/itm/188257256844
-- **First found:** 2026-04-14
-- **Last verified:** 2026-04-15 (Run 7)
-- **CPU:** Intel Core i7-10700, 8 cores / 16 threads, 65W TDP (desktop LGA1200)
-- **RAM:** 32GB DDR4 installed
-- **Storage:** 1TB SSD included
-- **GPU:** Intel UHD 630 (integrated)
-- **Location:** Ships from Brentwood, California — $14.94 UPS Ground (Bay Area local pickup possible)
-- **Seller:** mnijailcsm — 101 feedback, 99.2% positive, 204 items sold
-- **Returns:** No returns accepted (eBay Money Back Guarantee still applies)
-- **All-in price:** $350 machine + $14.94 shipping = **$364.94 total** (or $350 local pickup from Brentwood, ~1hr from 94122)
-- **vs. market:** eBay comps for HP Z2 G5 SFF i7-10700 32GB run $380-450. At $350-365 this is below market — slight steal.
-- **Notes:** ⚠️ Yellow flags: no returns accepted, low feedback count (101). However, eBay Money Back Guarantee covers DOA/not-as-described regardless. Brentwood, CA is in the Bay Area (~1hr from 94122), making local pickup feasible. Condition is "Used" with cosmetic wear. The Z2 G5 is a workstation-class machine — same model family as the prior research baseline ($450 Z2 Tower G5). This is $85-100 cheaper than that baseline with double the SSD. OBO listing — try offering $300-325.
+- **Notes:** No OS included — install Linux or provide own Windows license. Seller ratings are excellent: 4.8 accuracy, 5.0 shipping cost, 5.0 speed, 5.0 communication. EVR is a mission-driven refurb seller (37K items sold). The i7-10700F has no integrated graphics — the dedicated GPU is required for display output. OBO means room to negotiate.
 
 ---
 
@@ -108,7 +107,7 @@ Total runs: 7
 - **Status:** ACTIVE
 - **URL:** https://www.ebay.com/itm/257441249040
 - **First found:** 2026-04-13
-- **Last verified:** 2026-04-15 (Run 7)
+- **Last verified:** 2026-04-16 (Run 15)
 - **CPU:** Intel Core i7-10700T, 8 cores / 16 threads, 35W TDP (desktop LGA1200, not a laptop chip)
 - **RAM:** 32GB DDR4 installed
 - **Storage:** 1TB NVMe SSD included
@@ -122,79 +121,106 @@ Total runs: 7
 
 ---
 
-### Dell Precision 3440 SFF i9-10900 32GB 256GB Quadro P1000 — $400 OBO — eBay
+### Dell OptiPlex 7090 SFF i7-11700 32GB 500GB — $399.99 — eBay
 - **Status:** ACTIVE
-- **URL:** https://www.ebay.com/itm/389886309902
-- **First found:** 2026-04-13
-- **Last verified:** 2026-04-15 (Run 7)
-- **CPU:** Intel Core i9-10900, 10 cores / 20 threads, 65W TDP (desktop LGA1200)
+- **URL:** https://www.ebay.com/itm/397755839163
+- **First found:** 2026-04-16
+- **Last verified:** 2026-04-16 (Run 15)
+- **CPU:** Intel Core i7-11700, 8 cores / 16 threads, 65W TDP (desktop LGA1200, 11th gen Rocket Lake 2021)
 - **RAM:** 32GB DDR4 installed
-- **Storage:** 256GB NVMe SSD included
-- **GPU:** Quadro P1000 4GB GDDR5 (discrete, PCIe) + Intel UHD 630 (integrated)
-- **Location:** Ships from Oklahoma City, Oklahoma — Free delivery
-- **Seller:** CDR Global (cdrglobal) — 20,776 feedback, 99.9% positive
-- **Returns:** 30 days, seller pays return shipping
-- **All-in price:** $400 machine + $0 shipping = **$400 total**
-- **vs. market:** eBay comps for Precision 3440 SFF i9-10900 32GB 256GB run $380-$430. At $400 this is at market — fair price, not a steal, but the spec justifies it.
-- **Notes:** The i9-10900 (10C/20T, 65W) is the best shipped CPU option for multi-threaded workloads. CDR Global is an excellent seller: 99.9% positive on 20K+ transactions. Quadro P1000 supports 4x display outputs. Best shipped option if you want the strongest CPU for compile-heavy work.
-
----
-
-### Lenovo ThinkCentre M70q Gen3 i7-12700T 32GB 512GB+500GB — $399 — Craigslist
-- **Status:** ACTIVE
-- **URL:** https://sfbay.craigslist.org/sby/sys/d/san-jose-lenovo-thinkcentre-m70q-gen3/7927751477.html
-- **First found:** 2026-04-14
-- **Last verified:** 2026-04-15 (Run 7)
-- **CPU:** Intel Core i7-12700T, 12 cores (8P+4E) / 20 threads, 35W TDP (desktop LGA1700, 12th gen Alder Lake 2022)
-- **RAM:** 32GB DDR4 installed
-- **Storage:** 512GB NVMe SSD + 500GB additional
-- **GPU:** Intel UHD 770 (integrated)
-- **Location:** Local pickup, San Jose, CA (~50 min from 94122)
-- **Seller:** Private seller on Craigslist — appears to be a volume reseller (also selling monitors, accessories)
-- **Returns:** None (Craigslist — inspect in person)
-- **All-in price:** $399 machine + $0 shipping = **$399 total**
-- **vs. market:** eBay comps for ThinkCentre M70q Gen3 i7-12700T 32GB run $400-550. At $399 local pickup this is at the low end — fair to slight steal.
-- **Notes:** Second-newest CPU in the tracker (12th gen, same generation as the HP ENVY). The i7-12700T is the 35W variant — lower sustained clocks than the 65W i7-12700F in the ENVY, but still 12C/20T and perfectly adequate for dev work. Tiny form factor (mini/micro). Condition 9/10. Windows 11 Pro + MS Office 2021 included. WiFi + Bluetooth built in. Seller says "Firmed Price" — limited negotiation room. Excellent spec for a compact workstation.
-
----
-
-### Dell OptiPlex 5090 Micro i7-11700T 32GB 1TB — $399.99 OBO — eBay
-- **Status:** ACTIVE
-- **URL:** https://www.ebay.com/itm/406857489254
-- **First found:** 2026-04-15
-- **Last verified:** 2026-04-15 (Run 7)
-- **CPU:** Intel Core i7-11700T, 8 cores / 16 threads, 35W TDP (desktop LGA1200, 11th gen Rocket Lake 2021)
-- **RAM:** 32GB DDR4 installed
-- **Storage:** 1TB SSD included
-- **GPU:** Intel UHD Graphics 630 (integrated)
-- **Location:** Ships from Littleton, Massachusetts — Free USPS Ground Advantage
-- **Seller:** mh-822 — 313 feedback, 99% positive
-- **Returns:** Returns accepted
+- **Storage:** 500GB NVMe SSD included
+- **GPU:** Intel UHD Graphics 750 (integrated)
+- **Location:** Ships from Flagstaff, Arizona — Free delivery
+- **Seller:** 100% positive, 256 feedback
+- **Returns:** No returns accepted (eBay Money Back Guarantee still applies)
 - **All-in price:** $399.99 machine + $0 shipping = **$399.99 total**
-- **vs. market:** eBay comps for OptiPlex 5090 Micro i7-11700T 32GB run $400-530. At $399.99 with free shipping and 1TB SSD this is at the floor — good value.
-- **Notes:** Only 11th gen CPU in the tracker — one generation newer than the i7-10700 variants. The i7-11700T (Rocket Lake) has ~19% better single-thread IPC than Comet Lake i7-10700T. 32GB already installed, no upgrade needed. 1TB SSD is generous. OBO listing — room to negotiate. Seller notes say "Excellent Condition." WiFi built in. Item specs list "i7-11700" but the 5090 Micro uses the T variant (35W). Moderate seller feedback count (313) but 99% positive. eBay Money Back Guarantee applies.
+- **vs. market:** eBay comps for OptiPlex 7090 SFF i7-11700 32GB run $380-$470. At $399.99 shipped free this is at the low end — good value.
+- **Notes:** Full 65W i7-11700 — not the 35W T variant. ~19% better single-thread IPC than 10th gen i7-10700, plus higher base/boost clocks (2.5/4.9 GHz vs 2.9/4.8 GHz). Win 11 Pro, WiFi included. Yellow flags: no returns (eBay MBG covers DOA), moderate feedback count (256).
 
 ---
 
 ### HP EliteDesk 800 G6 MT i9-10900 32GB 512GB — $429 — eBay
 - **Status:** ACTIVE
 - **URL:** https://www.ebay.com/itm/267609284046
-- **First found:** 2026-04-14
-- **Last verified:** 2026-04-15 (Run 7)
+- **First found:** 2026-04-16 (re-added Run 15)
+- **Last verified:** 2026-04-16 (Run 15)
 - **CPU:** Intel Core i9-10900, 10 cores / 20 threads, 65W TDP (desktop LGA1200)
 - **RAM:** 32GB DDR4 installed
 - **Storage:** 512GB SSD included
 - **GPU:** Intel UHD 630 (integrated only)
-- **Location:** Ships from Columbus, Ohio — Free UPS Ground
-- **Seller:** Sage Sustainable Electronics — 15,069 feedback, 99.6% positive
+- **Location:** Ships from Columbus, Ohio — Free delivery
+- **Seller:** Sage Sustainable Electronics — 15,142 feedback, 99.2% positive
 - **Returns:** 60 days, seller pays return shipping
 - **All-in price:** $429 machine + $0 shipping = **$429 total**
-- **vs. market:** Active eBay comps for HP EliteDesk 800 G6 with i9-10900 32GB range from $430-$489. At $429 this is at the low end of current market pricing — fair, not a steal.
-- **Notes:** Condition is "Fair" (more cosmetic wear than Good, fully functional). **No OS included** — install Linux or provide own Windows license. The MT (mid-tower) form factor offers best expandability. Same trusted Sage seller and 60-day returns as the OptiPlex 7090 Micro. Key tradeoff: $29 more than the Precision 3440 i9, same 10C/20T CPU, more storage, but Fair condition and No OS.
+- **vs. market:** eBay comps for HP EliteDesk 800 G6 MT i9-10900 32GB run $400-$500. At $429 shipped free with 60-day seller-paid returns this is at market for the spec — fair, not a steal.
+- **Notes:** 🔄 Re-added this run after the Dell Precision 3440 i9-10900 at $399.99 (CDR Global) went out of stock. Highest core count in the tracker (10C/20T). Yellow flags: Fair condition (cosmetic wear), No OS included (install Linux or provide Windows license). Sage is the same seller as the OptiPlex 7090 Micro — 60-day seller-paid returns are the longest window in the tracker. The MT (Mid Tower) form factor provides better thermals than SFF variants for the 65W 10-core chip under sustained load.
+
+---
+
+### Dell Precision 3650 Tower i7-11700K 32GB 1TB — $450 OBO — eBay
+- **Status:** ACTIVE
+- **URL:** https://www.ebay.com/itm/406857152577
+- **First found:** 2026-04-16
+- **Last verified:** 2026-04-16 (Run 15)
+- **CPU:** Intel Core i7-11700K, 8 cores / 16 threads, 125W TDP (desktop LGA1200, 11th gen Rocket Lake 2021, unlocked)
+- **RAM:** 32GB DDR4 installed
+- **Storage:** 1TB SSD (4x 256GB SSDs) included
+- **GPU:** Intel UHD Graphics 750 (integrated)
+- **Location:** Ships from Lawrence, Massachusetts — Free delivery
+- **Seller:** 100% positive, ~8,563 feedback
+- **Returns:** Returns accepted
+- **All-in price:** $450 machine + $0 shipping = **$450 total**
+- **vs. market:** eBay comps for Precision 3650 i7-11700K 32GB run $450-$550+. At $450 OBO this is at the floor — good value.
+- **Notes:** The i7-11700K is the highest-performance single-thread CPU in the tracker after the i7-12700F — 125W TDP, 3.6 GHz base / 5.0 GHz turbo, unlocked. Workstation-class tower with excellent thermals for the 125W chip. 1TB total storage (4x 256GB SSDs). Win 11 Pro. Professionally pulled from working office, tested. OBO listing — room to negotiate below $450. The Precision 3650 is the workstation variant of the OptiPlex tower line — ISV certified, ECC-capable, built for sustained loads.
 
 ---
 
 ## Expired / Sold Listings
+
+### Lenovo ThinkStation P360 Tower i7-12700 32GB 1TB RTX 3060 — $290 OBO — eBay
+- **Status:** SOLD (out of stock 2026-04-16)
+- **URL:** https://www.ebay.com/itm/157224622300
+- **First found:** 2026-04-16
+- **Expired:** 2026-04-16 (Run 15)
+- **Notes:** Sold within ~24 hours of being added to the tracker. Listing page now shows "This item is out of stock." At $290 with 12th gen 12C/20T, RTX 3060, 1TB SSD, and 30-day seller-paid returns, this was an extraordinary deal — eBay comps for the same spec run $649-$1,000+. No surprise it moved fast. Validates that ThinkStation P360 i7-12700 at sub-$300 is a genuine steal price point.
+
+---
+
+### Dell Precision 3440 SFF i9-10900 32GB 256GB Quadro P1000 — $399.99 — eBay
+- **Status:** SOLD (out of stock 2026-04-16)
+- **URL:** https://www.ebay.com/itm/389886309902
+- **First found:** 2026-04-13
+- **Expired:** 2026-04-16 (Run 15)
+- **Notes:** Listing page now shows "out of stock." Sold or pulled after ~3 days in the tracker. Was the best i9-10900 option available from a top-tier seller (CDR Global, 99.9%, 20.8K feedback) with seller-paid returns at $399.99. Replaced in the tracker by the HP EliteDesk 800 G6 MT i9-10900 at $429 (Sage Sustainable Electronics) — $29 more but same CPU class, 512GB vs 256GB, and 60-day returns instead of 30-day.
+
+---
+
+### HP Z2 G5 SFF i7-10700 32GB 1TB Win 11 — $300 — eBay
+- **Status:** SOLD (sold 2026-04-15)
+- **URL:** https://www.ebay.com/itm/188257256844
+- **First found:** 2026-04-14
+- **Expired:** 2026-04-16 (confirmed sold Run 13)
+- **Notes:** Sold on Apr 15 at $300. Was previously price-dropped from $350 to $300 with free shipping (Run 8). Workstation-class machine with 1TB SSD, Bay Area local pickup possible from Brentwood, CA. Validated the $300 price point for i7-10700 32GB 1TB configs.
+
+---
+
+### Dell OptiPlex 5090 Micro i7-11700T 32GB 1TB — $399.99 OBO — eBay
+- **Status:** EXPIRED (pruned 2026-04-16 — top-10 cap)
+- **URL:** https://www.ebay.com/itm/406857489254
+- **First found:** 2026-04-15
+- **Expired:** 2026-04-16
+- **Notes:** Pruned — at $399.99 now dominated by the Dell OptiPlex 7090 SFF i7-11700 at the same price. The 7090 SFF has a full 65W i7-11700 vs the 35W i7-11700T, delivering substantially better sustained performance for the same money. The 5090 Micro had 1TB SSD (vs 500GB) and OBO, but the CPU upgrade on the 7090 SFF is the more impactful difference for dev work.
+
+---
+
+### Lenovo ThinkCentre M70q Gen3 i7-12700T 32GB 512GB+500GB — $399 — Craigslist
+- **Status:** EXPIRED (listing deleted by author)
+- **URL:** https://sfbay.craigslist.org/sby/sys/d/san-jose-lenovo-thinkcentre-m70q-gen3/7927751477.html
+- **First found:** 2026-04-14
+- **Expired:** 2026-04-15
+- **Notes:** Listing deleted by the seller on Craigslist. Was a strong local option — i7-12700T 12C/20T, 32GB, 512GB+500GB, $399 in San Jose. Likely sold or relisted elsewhere.
+
+---
 
 ### Dell OptiPlex 7090 SFF i7-10700 16GB (upgradeable) — $250 — Facebook Marketplace
 - **Status:** EXPIRED (pruned 2026-04-14 — RAM repricing)
@@ -251,4 +277,12 @@ Total runs: 7
 | 5 | 2026-04-14 | 3 | 0 | HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 |
 | 6 | 2026-04-15 | 2 | 0 | HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 |
 | 7 | 2026-04-15 | 2 | 0 | HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 |
+| 8 | 2026-04-15 | 0 | 0 | HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 |
+| 9 | 2026-04-15 | 0 | 1 | HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 |
+| 10 | 2026-04-16 | 0 | 0 | HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 |
+| 11 | 2026-04-16 | 1 | 0 | HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 |
+| 12 | 2026-04-17 | 2 | 2 | HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 |
+| 13 | 2026-04-17 | 1 | 1 | Lenovo ThinkStation P360 Tower i7-12700 32GB 1TB RTX 3060 — $290 |
+| 14 | 2026-04-17 | 0 | 0 | Lenovo ThinkStation P360 Tower i7-12700 32GB 1TB RTX 3060 — $290 |
+| 15 | 2026-04-16 | 1 | 2 | HP ENVY TE01-3197c i7-12700F 32GB 1TB GTX 1660 SUPER — $350 |
 | — | 2026-04-14 | maintenance | 5 | (DDR4 RAM repricing $18→$185, top-10 cap enforced) |

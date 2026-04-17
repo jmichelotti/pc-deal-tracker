@@ -47,11 +47,17 @@ Read `deals.md` in full. Note all active listings, their URLs, prices, and date 
 For each listing currently marked ACTIVE in `deals.md`:
 - Visit the URL using the Playwright MCP
 - Determine if the listing is still live, price has changed, or has been removed/sold
+- **Verify the listing is actually purchasable, not just that the URL loads.** eBay (and other platforms) keep listing URLs live and fully rendered even after inventory is exhausted. A page that loads is NOT proof the listing is active. Use `browser_evaluate` on the rendered page to check for buy-ability signals:
+  - eBay: the "Buy It Now" / "Add to cart" / "Place bid" button must be present and enabled. If the page instead shows "This listing was ended by the seller", "This listing sold", "This listing is no longer available", "Out of stock", "0 available", a quantity selector pinned at 0, or only a "Similar sponsored items" / "View similar active listings" CTA with no buy button, the listing is NOT active.
+  - Craigslist: the post body and "reply" button must be present. A "this posting has been deleted by its author" / "this posting has expired" / "flagged for removal" page means the listing is dead.
+  - Facebook Marketplace: the listing must still render with price and "Message" button. "Sold" overlays, "This listing isn't available" messages, or redirects to the Marketplace home mean it's dead.
+- If the page loads but the item is not purchasable, set status to `EXPIRED` (or `SOLD` if the page explicitly says sold) and archive the row — do not leave it as `ACTIVE`.
 - Update the status accordingly: ACTIVE, PRICE CHANGED, EXPIRED, or SOLD
 - Note the date of the status change
 
 ### Step 3 — Search for new deals
 Run the searches listed above. For each promising find:
+- **Confirm the listing is actually purchasable before adding it** — apply the same out-of-stock / unavailable checks described in Step 2. Search results (especially on eBay) can surface listings that have already sold out but still appear on category pages. Never add a listing to the tracker without loading its detail page and confirming the buy button is present and enabled.
 - Verify RAM spec against manufacturer QuickSpecs or official spec sheet
 - Benchmark price against eBay sold comps for the same model/config
 - Calculate total all-in cost: machine + shipping (if applicable) + **$185 RAM kit if upgrade needed**. Do NOT add anything for missing/small storage — see Storage section above.
